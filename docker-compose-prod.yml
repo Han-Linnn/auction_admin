@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  auction-admin:
+    restart: always
+    image: registry.cn-shenzhen.aliyuncs.com/yding/auction_admin:deploy-v0.0.1
+    container_name: auction-admin
+    ports:
+      - 8011:80

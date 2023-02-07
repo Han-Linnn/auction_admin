@@ -1,0 +1,20 @@
+.container {
+  :global {
+    .ant-card {
+      margin-bottom: 15px;
+    }
+
+    .ant-carousel {
+      .slick-next {
+        &::before {
+          content: '';
+        }
+      }
+      .slick-prev {
+        &::before {
+          content: '';
+        }
+      }
+    }
+  }
+}
